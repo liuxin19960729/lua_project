@@ -151,3 +151,32 @@ __unm 在表前面加 -
 
 
 ]]--
+
+
+
+
+--[[
+__tostring
+]]--
+
+
+-- mytal=setmetatable({},{
+--     __tostring=function (t)
+--         return "["..table.concat(t,",").."]"
+--     end
+-- })
+
+
+-- print(mytal) -- call tab __tostring
+
+
+-- table.insert(mytal,1)
+
+-- table.insert(mytal,2)
+
+-- table.insert(mytal,3)
+
+
+
+
+-- print(mytal) -- call tab __tostring
